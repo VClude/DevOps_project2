@@ -14,10 +14,10 @@ class UrlChecker {
         Boolean Myboolean = Mymatcher.matches();
 
         if(Myboolean == true) {
-            System.out.println("URL is correct");
+            System.out.println("URL is correct, you can go ahead with this");
         }
         else {
-            System.out.println("URL is incorrect");    
+            System.out.println("URL is incorrect, please check your Url.");    
         }
             }
 }
